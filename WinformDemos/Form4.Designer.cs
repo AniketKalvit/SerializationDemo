@@ -155,6 +155,7 @@ namespace WinformDemos
             this.btnJsonRead.TabIndex = 23;
             this.btnJsonRead.Text = "JSON Read";
             this.btnJsonRead.UseVisualStyleBackColor = true;
+            this.btnJsonRead.Click += new System.EventHandler(this.btnJsonRead_Click);
             // 
             // btnJsonWrite
             // 
@@ -164,6 +165,7 @@ namespace WinformDemos
             this.btnJsonWrite.TabIndex = 22;
             this.btnJsonWrite.Text = "JSON Write";
             this.btnJsonWrite.UseVisualStyleBackColor = true;
+            this.btnJsonWrite.Click += new System.EventHandler(this.btnJsonWrite_Click);
             // 
             // Form4
             // 
