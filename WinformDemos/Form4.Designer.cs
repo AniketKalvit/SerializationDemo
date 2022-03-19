@@ -119,6 +119,7 @@ namespace WinformDemos
             this.btnXmlRead.TabIndex = 19;
             this.btnXmlRead.Text = "XML Read";
             this.btnXmlRead.UseVisualStyleBackColor = true;
+            this.btnXmlRead.Click += new System.EventHandler(this.btnXmlRead_Click);
             // 
             // btnXmlWrite
             // 
@@ -128,6 +129,7 @@ namespace WinformDemos
             this.btnXmlWrite.TabIndex = 18;
             this.btnXmlWrite.Text = "XML Write";
             this.btnXmlWrite.UseVisualStyleBackColor = true;
+            this.btnXmlWrite.Click += new System.EventHandler(this.btnXmlWrite_Click);
             // 
             // btnSoapRead
             // 
