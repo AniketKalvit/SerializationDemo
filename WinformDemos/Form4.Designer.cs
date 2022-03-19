@@ -101,6 +101,7 @@ namespace WinformDemos
             this.btnBinaryWrite.TabIndex = 16;
             this.btnBinaryWrite.Text = "Binary Write";
             this.btnBinaryWrite.UseVisualStyleBackColor = true;
+            this.btnBinaryWrite.Click += new System.EventHandler(this.btnBinaryWrite_Click);
             // 
             // btnBinaryRead
             // 
@@ -110,6 +111,7 @@ namespace WinformDemos
             this.btnBinaryRead.TabIndex = 17;
             this.btnBinaryRead.Text = "Binary Read";
             this.btnBinaryRead.UseVisualStyleBackColor = true;
+            this.btnBinaryRead.Click += new System.EventHandler(this.btnBinaryRead_Click);
             // 
             // btnXmlRead
             // 
@@ -139,6 +141,7 @@ namespace WinformDemos
             this.btnSoapRead.TabIndex = 21;
             this.btnSoapRead.Text = "SOAP Read";
             this.btnSoapRead.UseVisualStyleBackColor = true;
+            this.btnSoapRead.Click += new System.EventHandler(this.btnSoapRead_Click);
             // 
             // btnSoapWrite
             // 
@@ -148,6 +151,7 @@ namespace WinformDemos
             this.btnSoapWrite.TabIndex = 20;
             this.btnSoapWrite.Text = "SOAP Write";
             this.btnSoapWrite.UseVisualStyleBackColor = true;
+            this.btnSoapWrite.Click += new System.EventHandler(this.btnSoapWrite_Click);
             // 
             // btnJsonRead
             // 
